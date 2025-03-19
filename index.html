@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Healthy Life - Your guide to a healthier, happier you. Learn about nutrition, exercise, and mental health.">
-    <meta name="keywords" content="healthy life, nutrition, exercise, mental health, wellness">
-    <meta name="author" content="Healthy Life">
     <title>Healthy Life</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -57,13 +54,6 @@
             color: #4CAF50;
             margin-bottom: 20px;
         }
-        h3 {
-            font-size: 2rem;
-            font-weight: 600;
-            color: #333;
-            margin-top: 40px;
-            margin-bottom: 15px;
-        }
         p {
             font-size: 1.1rem;
             margin-bottom: 20px;
@@ -74,13 +64,6 @@
             border-radius: 10px;
             margin-bottom: 20px;
         }
-        .card {
-            transition: transform 0.3s;
-            margin-bottom: 20px;
-        }
-        .card:hover {
-            transform: translateY(-10px);
-        }
         footer {
             background: #333;
             color: white;
@@ -89,16 +72,6 @@
         }
         footer p {
             margin: 0;
-        }
-        .btn-primary {
-            background: #4CAF50;
-            border: none;
-            padding: 10px 20px;
-            font-size: 1rem;
-            transition: background 0.3s;
-        }
-        .btn-primary:hover {
-            background: #45a049;
         }
     </style>
 </head>
@@ -111,96 +84,40 @@
 
     <!-- Navigation -->
     <nav class="text-center">
-        <a href="#home"><i class="fas fa-home"></i> Home</a>
         <a href="#nutrition"><i class="fas fa-utensils"></i> Nutrition</a>
         <a href="#exercise"><i class="fas fa-running"></i> Exercise</a>
         <a href="#mental-health"><i class="fas fa-brain"></i> Mental Health</a>
-        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
     </nav>
 
     <!-- Main Content -->
     <div class="container">
-        <!-- Home Section -->
-        <section id="home">
-            <h2>About Healthy Life</h2>
-            <p>Healthy Life is your ultimate guide to achieving a balanced and fulfilling lifestyle. We provide tips and resources on nutrition, exercise, and mental health to help you live your best life.</p>
-            <img src="https://source.unsplash.com/800x400/?healthy,lifestyle" alt="Healthy Lifestyle">
-        </section>
-
         <!-- Nutrition Section -->
         <section id="nutrition">
             <h2>Nutrition</h2>
             <p>Eating a balanced diet is key to maintaining a healthy life. Focus on fruits, vegetables, lean proteins, and whole grains. Avoid processed foods and sugary drinks.</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://source.unsplash.com/400x300/?fruits" alt="Fruits">
-                        <div class="card-body">
-                            <h3>Fruits</h3>
-                            <p>Rich in vitamins, minerals, and antioxidants. Aim for 2-3 servings daily.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://source.unsplash.com/400x300/?vegetables" alt="Vegetables">
-                        <div class="card-body">
-                            <h3>Vegetables</h3>
-                            <p>Packed with fiber and essential nutrients. Include a variety of colors in your diet.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://source.unsplash.com/400x300/?protein" alt="Protein">
-                        <div class="card-body">
-                            <h3>Protein</h3>
-                            <p>Essential for muscle repair and growth. Choose lean meats, beans, and nuts.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img src="https://github.com/MindfulMusing/vigilant-umbrella/blob/main/nutrition.jpg?raw=true" alt="Nutrition">
+            <img src="https://github.com/MindfulMusing/vigilant-umbrella/blob/main/nutrition1.jpg?raw=true" alt="Healthy Food">
+            <img src="https://github.com/MindfulMusing/vigilant-umbrella/blob/main/proteins.jpg?raw=true" alt="Protein Sources">
         </section>
 
         <!-- Exercise Section -->
         <section id="exercise">
             <h2>Exercise</h2>
             <p>Regular physical activity boosts your energy, improves mood, and reduces the risk of chronic diseases. Aim for at least 30 minutes of exercise daily.</p>
-            <img src="https://source.unsplash.com/800x400/?exercise,fitness" alt="Exercise">
+            <img src="https://github.com/MindfulMusing/vigilant-umbrella/blob/main/excercise.jpg?raw=true" alt="Exercise">
         </section>
 
         <!-- Mental Health Section -->
         <section id="mental-health">
             <h2>Mental Health</h2>
             <p>Take care of your mind by practicing mindfulness, getting enough sleep, and staying connected with loved ones. Mental health is just as important as physical health.</p>
-            <img src="https://source.unsplash.com/800x400/?mindfulness,meditation" alt="Mental Health">
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Have questions or feedback? Reach out to us!</p>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <img src="https://github.com/MindfulMusing/vigilant-umbrella/blob/main/mind.jpg?raw=true" alt="Mental Health">
         </section>
     </div>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Healthy Life. All rights reserved. | <a href="#privacy-policy" style="color: #4CAF50; text-decoration: none;">Privacy Policy</a></p>
+        <p>&copy; 2023 Healthy Life. All rights reserved.</p>
     </footer>
 
     <!-- Bootstrap JS -->
